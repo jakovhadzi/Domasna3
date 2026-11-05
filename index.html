@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Singapore Grand Prix</title>
+        <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+        <link rel="icon" type="text/png" href="images/f1_logo.png">
+        <script language="JavaScript" src="javaScript/function.js"></script>
+    </head>
+    <body>
+        <div id="table">
+            <table>
+                <caption>
+                    <img src="images/f1.png" alt="F1 Logo" height="30">
+                    Sprint
+                </caption>
+                <caption id="lap" class="lapNum">
+                    Lap <span id="activeLap">0</span>/10
+                </caption>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Team</th>
+                        <th>Name</th>
+                        <th>Speed</th>
+                        <th>Skill</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="images/mercedes.png" alt="Mercedes F1 Logo" height="25"></td>
+                        <td>Kimi ANTONELLI</td>
+                        <td>194 km/h</td>
+                        <td>99</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="images/ferrari.png" alt="Ferrari F1 Logo" height="25"></td>
+                        <td>Lewis HAMILTON</td>
+                        <td>193 km/h</td>
+                        <td>75</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="images/redBull.png" alt="RedBull F1 Logo" height="20"></td>
+                        <td>Max VERSTAPPEN</td>
+                        <td>195 km/h</td>
+                        <td>80</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img src="images/mclaren.png" alt="McLaren F1 Logo" height="25"></td>
+                        <td>Oscar PIASTRI</td>
+                        <td>193 km/h</td>
+                        <td>85</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img src="images/racingBulls.png" alt="Racing Bulls F1 Logo" height="25"></td>
+                        <td>Liam LAWSON</td>
+                        <td>192 km/h</td>
+                        <td>55</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img src="images/alpine.png" alt="Alpine F1 Logo" height="35"></td>
+                        <td>Pierre GASLY</td>
+                        <td>192 km/h</td>
+                        <td>45</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img src="images/haas.png" alt="HAAS F1 Logo" height="25"></td>
+                        <td>Esteban OCON</td>
+                        <td>190 km/h</td>
+                        <td>50</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img src="images/audi.png" alt="Audi F1 Logo" height="35"></td>
+                        <td>Nico HUKLKENBERG</td>
+                        <td>192 km/h</td>
+                        <td>55</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img src="images/williams.png" alt="Williams F1 Logo" height="20"></td>
+                        <td>Carlos SAINZ</td>
+                        <td>195 km/h</td>
+                        <td>70</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><img src="images/astonMartin.png" alt="Aston Martin F1 Logo" height="45"></td>
+                        <td>Fernando ALONSO</td>
+                        <td>188 km/h</td>
+                        <td>60</td>
+                        <td>0:00.000</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><img src="images/cadillac.png" alt="Cadillac F1 Logo" height="17"></td>
+                        <td>Valtteri BOTTAS</td>
+                        <td>192 km/h</td>
+                        <td>57</td>
+                        <td>0:00.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="body">
+            <div id="podium">
+                <section>
+                    <img id="p2" src="">
+                    <img src="images/podiumSecond.png" alt="Podium 2nd place" height="50px">
+                </section>
+                <section>
+                    <img id="p1" src="">
+                    <img src="images/podumFirst.png" alt="Podium 1st place" height="70px">
+                </section>
+                <section>
+                    <img id="p3" src="">
+                    <img src="images/podiumSecond.png" alt="Podium 3rd place" height="40px">
+                </section>
+            </div>
+
+            <button id="nextLap">Start race</button>
+
+            <div id="notifs">
+                <details open>
+                    <summary>
+                        Starting positions
+                    </summary>
+                    <p>Drivers have taken their starting positions</p>
+                </details>
+                <details>
+                    <summary>
+                        First lap
+                    </summary>
+                </details>
+            </div>
+        </div>
+    </body>
+</html>
